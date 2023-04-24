@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/dialogo_scene"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/txt_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Apellido" />
+
+    <EditText
+        android:id="@+id/int_edad"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Edad" />
+
+    <EditText
+        android:id="@+id/txt_sexo"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Sexo" />
+
+    <EditText
+        android:id="@+id/int_altura"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Altura" />
+
+    <EditText
+        android:id="@+id/int_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Telefono" />
+
+    <EditText
+        android:id="@+id/txt_sexo_buscado"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Sexo buscado" />
+
+    <EditText
+        android:id="@+id/txt_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Descripcion" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_agregar_user"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2BC831"
+            android:text="Agregar"
+            app:iconTint="#857575" />
+
+        <Button
+            android:id="@+id/btn_cancelar_user"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF0000"
+            android:text="Cancelar" />
+    </LinearLayout>
+
+</LinearLayout>
